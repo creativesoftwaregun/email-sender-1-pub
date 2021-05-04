@@ -1,6 +1,6 @@
 [![.NET](https://github.com/creativesoftwaregun/email-sender-1-pub/actions/workflows/dotnet.yml/badge.svg)](https://github.com/creativesoftwaregun/email-sender-1-pub/actions/workflows/dotnet.yml)
 
-Stupid sample email sending api using asp-net-core and sendgrid
+# Stupid sample email sending api using asp-net-core and sendgrid
 
 Features
 * Sendgrid for sending email 

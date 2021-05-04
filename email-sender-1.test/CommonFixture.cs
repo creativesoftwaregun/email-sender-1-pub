@@ -35,7 +35,7 @@ namespace email_sender_1.test
     IConfiguration GetConfigurationRoot()
     {
       return new ConfigurationBuilder()
-       .AddJsonFile("appsettings.json", optional: true)
+       .AddJsonFile("appsettings.json.test", optional: true)
        .Build();
     }
 

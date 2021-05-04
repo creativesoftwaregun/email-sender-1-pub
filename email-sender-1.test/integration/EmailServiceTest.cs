@@ -27,14 +27,14 @@ namespace email_sender_1.test.integration
     public async Task Send()
     {
 
-      var emailService = _commonFixture.ServiceProvider.GetRequiredService<Service.IEmailService>();
-      var from = "test@yopmail.com";
-      var to= "test2@yopmail.com";
-      var subject = "hello there";
-      var body = "hello";
-      var response = await emailService.Send(from, to, subject, body);
-      _output.WriteLine(response.StatusCode.ToString());
-      Assert.True(response.IsSuccessStatusCode);
+      //var emailService = _commonFixture.ServiceProvider.GetRequiredService<Service.IEmailService>();
+      //var from = "test@yopmail.com";
+      //var to= "test2@yopmail.com";
+      //var subject = "hello there";
+      //var body = "hello";
+      //var response = await emailService.Send(from, to, subject, body);
+      //_output.WriteLine(response.StatusCode.ToString());
+      //Assert.True(response.IsSuccessStatusCode);
       
     }
   }
